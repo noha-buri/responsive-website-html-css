@@ -6,4 +6,230 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+#conten-text{
+  font-family: Mulish;
+  font-weight: 300;
+ color: rgba(0, 0, 0, 0.517);
+}
+#primary-button{
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 18px 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+/* header section code start here */
+/* navigation code */
+#navigation-container{
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.heaeder-logo{
+display: flex;
+}
+.heaeder-logo img{
+  width: 62px;
+  height: 54px;
+  margin-right: 25px;
+}
+.heaeder-logo > h2 > span{
+  color: #05c46b;
+  font-size: 1.7rem;
+}
+.heaeder-logo > h2{
+  margin-top: -8px;
+}
+#navigation-container > ul{
+display: flex;
+}
+#navigation-container > ul > li{
+list-style: none;
+margin-right: 30px;
+}
+#navigation-container > ul > li > a{
+text-decoration: none;
+color: rgba(39, 8, 8, 0.74);
+font-weight: 400;
+font-size: 1.2rem;
+}
+#navigation-container > ul > li > a > span{
+  color: red;
+  font-family: Mulish;
+  font-weight: 700;
+}
 
+/* banner section code */
+#banner-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.481),rgba(0, 0, 0, 0.178)), url(images/banner.png);
+  width: 80vw;
+  height: 75vh; 
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin: auto;
+  text-align: center; 
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+.banner-title{
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 92px;
+  margin-bottom: 20px;
+}
+.banner-content{
+font-size: 1.5rem;
+margin-bottom: 20px;
+color: rgba(255, 255, 255, 0.608);
+}
+.form-box{
+  color: rgba(255, 255, 255, 0.637);
+  padding: 25px;
+}
+.form-style{
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 18px 20px;
+  margin-right: 10px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.441)
+}
+
+/* main section code start here */
+/* first section */
+#tour-description-contaier{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#tour-description-contaier > div > ul > li{
+  list-style-position: inside;
+  margin-left: 5px;
+}
+#tour-description-contaier > img{
+  width: 439px;
+  height: 422px;
+}
+/* travel destination second section */
+#travel-destination-container{
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
+  text-align: center; 
+}
+#travel-destination-container > h2{
+  margin-bottom: 1rem;
+}
+/* image grid style */
+.first-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.second-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  
+}
+.third-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* maldives image */
+.maldives{
+    position: relative;
+    text-align: center;
+}
+.maldives > p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* indonesia image */
+.indonesia{
+  position: relative;
+  text-align: center;
+}
+.indonesia> p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+/* srilanka image */
+.srilanka{
+  position: relative;
+  text-align: center;
+}
+.srilanka > p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+/* north america image */
+.north-america{
+  position: relative;
+  text-align: center;
+}
+.north-america > p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+/* kashmir image */
+.kashmir{
+  position: relative;
+  text-align: center;
+}
+.kashmir > p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+/* bangladesh image */
+.bangladesh{
+  position: relative;
+  text-align: center;
+}
+.bangladesh > p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+/* bandarban image */
+.bandarban{
+  position: relative;
+  text-align: center;
+}
+.bandarban > p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}

@@ -4,14 +4,116 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Website</title>
-  <!--google font link-->
+  <!-- link of google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-  <!--style link-->
+  <!--link of css style-->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <!--header section code start here-->
+  <header>
+        <!--navigation code start here-->
+        <nav id="navigation-container">
+            <div class="heaeder-logo">
+              <img src="images/Group 40071 (2).png" alt="">
+              <h2><span>T</span>ravel <br> Eat <span>&</span> Live</h2>
+            </div>
+            <ul>
+              <li><a href="#"><span>Home</span></a></li>
+              <li><a href="#">Packages</a></li>
+              <li><a href="#">Testimonial</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!--banner section code start here-->
+        <div id="banner-container">
+            <h2 class="banner-title">Explore Your Travel</h2>
+            <p class="banner-content">
+              There are many variations of passages of Lorem Ipsum available <br> the majority have suffered alteration
+            </p>
+            <div class="form-box">
+                <input class="form-style" type="text" placeholder="Where go">
+                <select class="form-style" name="travel">
+                    <option value="sakib">When</option>
+                </select>
+                <select class="form-style" name="travel">
+                    <option value="sakib">Select Type</option>
+                </select>
+                <button id="primary-button">Find Now</button>                      
+            </div>
+        </div>
+  </header>
+  <!--main section code start here-->
+  <main>
+    <!--first section-->
+    <section id="tour-description-contaier">
+          <div>
+            <h2>Our Popular Tours</h2> <br>
+            <p id="conten-text">
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit <br> &nbsp; &nbsp; &nbsp; massa. Sodales dictumst nec nibh pellentesque.
+            </p> <br>
+            <ul id="conten-text">
+              <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna <br> &nbsp; &nbsp; &nbsp; nullam odio neque diam. Sociis erat at
+              </li> <br>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae platea <br> &nbsp; &nbsp; &nbsp; porta lacus. Lectus suspendisse nullam.
+              </li> <br>
+              <li>
+                Accumsan eget et turpis praesent lorem egestas enim elit <br>  &nbsp; &nbsp; &nbsp;bibendum. Risus at in.
+              </li>
+            </ul> <br>
+            <p id="conten-text">
+              There are many variations of passages of Lorem <br> Ipsum available, but the majority have suffered alteration in some <br>form, by injected humour, or randomised words which don't look even slightly believable. <br> If you are going to 
+            </p> <br>
+             <button id="primary-button">Read More</button>
+          </div>
+          <img src="images/Rectangle 4.png" alt="" >
+    </section>
+    <!--travel destination second section-->
+    <section id="travel-destination-container">
+              <h2>Choose Your Destination</h2>
+              <p id="content-text">
+                Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa<br>
+                Sodales dictumst nec nibh pellentesque.
+              </p>
+              <div class="first-grid">
+                  <div class="maldives">
+                    <img src="images/Rectangle 5.png" alt="" width="100%">
+                    <p>maldives</p>
+                  </div>
+                  <div class="indonesia">
+                    <img src="images/Rectangle 8.png" alt="" width="100%">
+                    <p>Indonesia</p>
+                  </div>
+              </div>
+              <div class="second-grid">
+                  <div class="srilanka">
+                    <img src="images/Rectangle 6.png" alt="" width="100%">
+                    <p>Srilanka</p>
+                  </div>
+                  <div class="north-america">
+                    <img src="images/Rectangle 7.png" alt="" width="100%" height="100%">
+                    <p>North America</p>
+                  </div>
+                  <div class="kashmir">
+                    <img src="images/Rectangle 9.png" alt="" width="100%">
+                    <p>Kashmir</p>
+                  </div>
+              </div>  
+              <div class="third-grid">
+                  <div class="bangladesh">
+                    <img src="images/Rectangle 11.png" alt="" width="100%">
+                    <p>Bangladesh</p>
+                  </div>
+                  <div class="bandarban">
+                    <img src="images/Rectangle 10.png" alt="" width="100%" height="100%">
+                    <p>Bandarban</p>
+                  </div>
+              </div>                                  
+    </section>
+  </main>
 </body>
 </html>
