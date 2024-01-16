@@ -6,15 +6,15 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-#conten-text{
+#content-text{
   font-family: Mulish;
-  font-weight: 300;
- color: rgba(0, 0, 0, 0.517);
+  font-weight: 300; 
+  color: rgba(0, 0, 0, 0.409);
 }
 #primary-button{
   border: none;
   border-radius: 5px;
-  width: 150px;
+  width: 160px;
   padding: 18px 20px;
   font-weight: 700;
   text-align: center;
@@ -66,41 +66,51 @@ font-size: 1.2rem;
 
 /* banner section code */
 #banner-container{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.481),rgba(0, 0, 0, 0.178)), url(images/banner.png);
   width: 80vw;
-  height: 75vh; 
+  height: 450px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.481),rgba(0, 0, 0, 0.178)), url(images/banner.png);
+
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: 100% 100%;
   margin: auto;
   text-align: center; 
   margin-top: 4rem;
   margin-bottom: 4rem;
-  overflow: hidden;
+
 }
 .banner-title{
   color: white;
-  font-size: 4rem;
+  font-size: 3.7rem;
   font-weight: 600;
-  margin-top: 92px;
   margin-bottom: 20px;
+  padding-top: 72px; 
 }
 .banner-content{
-font-size: 1.5rem;
-margin-bottom: 20px;
+font-size: 1rem;
+font-family: Mulish;
+font-weight: 300;
+margin-bottom: 40px;
 color: rgba(255, 255, 255, 0.608);
 }
 .form-box{
-  color: rgba(255, 255, 255, 0.637);
-  padding: 25px;
+  width: 722px;
+  height: 87px;
+  margin: auto;
+  background-color: rgba(240, 248, 255, 0.372);
+  border-radius: 5px;
+  padding-top: 1rem; 
+  
+  
 }
 .form-style{
   border: none;
   border-radius: 5px;
-  width: 150px;
+  width: 160px;
   padding: 18px 20px;
   margin-right: 10px;
   background-color: white;
   color: rgba(0, 0, 0, 0.441)
+ 
 }
 
 /* main section code start here */
@@ -154,82 +164,254 @@ color: rgba(255, 255, 255, 0.608);
     position: relative;
     text-align: center;
 }
-.maldives > p{
+.maldives > h2{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 2rem;
+  font-weight: 800;
 }
 /* indonesia image */
 .indonesia{
   position: relative;
   text-align: center;
 }
-.indonesia> p{
+.indonesia> h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
 /* srilanka image */
 .srilanka{
   position: relative;
   text-align: center;
 }
-.srilanka > p{
+.srilanka > h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
 /* north america image */
 .north-america{
   position: relative;
   text-align: center;
 }
-.north-america > p{
+.north-america > h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
 /* kashmir image */
 .kashmir{
   position: relative;
   text-align: center;
 }
-.kashmir > p{
+.kashmir > h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
 /* bangladesh image */
 .bangladesh{
   position: relative;
   text-align: center;
 }
-.bangladesh > p{
+.bangladesh > h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
 /* bandarban image */
 .bandarban{
   position: relative;
   text-align: center;
 }
-.bandarban > p{
+.bandarban > h2{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+font-size: 2rem;
+font-weight: 800;
 }
+/* why choose third section */
+#chooser-container{
+  width: 80vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+#chooser-container > div{
+  text-align: center;
+}
+#chooser-container > h2{
+  margin-bottom: 1rem;
+}
+.location-content{
+  margin: 1.5rem 0;
+}
+#service-card-container{
+width: 80vw;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+
+}
+#service-card-container > .service-box-hotel{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 1rem;
+} 
+.service-box-hotel > h3{
+  margin: 1rem 0;
+}
+#service-card-container > .service-box-location{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 1rem;
+}
+.service-box-location > h3{
+  margin: 1rem 0;
+}
+#chooser-container > .service-box-guarantee{
+  width: 40vw;
+  margin: 1rem auto 4rem auto;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 1rem;
+  
+}
+.service-box-guarantee > h3{
+  margin: 1rem 0;
+}
+/* Newsletter third section */
+#newslater-contaier{
+  width: 80vw; 
+  margin-top: 4rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+}
+.newslater-description{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ff550079;
+  border-radius: .75rem;
+  padding: 1rem;
+}
+.newslater-description hr{
+  border: none;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.10);
+}
+.name-email{
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 1rem;
+}
+.subscribe-button{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.newslater-image{
+  position: relative;
+}
+.save-up{
+  border: none;
+  border-radius: 5px;
+  width: 243px;
+  border-radius: 1rem;
+  padding: 18px 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: red;
+  color: white;
+  position: absolute;
+  bottom: 41px;
+  right: 10px;
+  transform: rotate(-19.628deg);
+}
+.save-up p{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+} 
+.save-up span{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+/* footer section */
+#footer-container{
+  width: 100vw;
+  margin-top: 4rem;
+  padding: 100px;
+  background: rgba(19, 19, 24, 0.10);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.footer-title{
+  display: flex;
+  }
+  .footer-title img{
+    width: 62px;
+    height: 54px;
+    margin-right: 25px;
+  }
+  .footer-title > h2 > span{
+    color: #05c46b;
+    font-size: 1.7rem;
+  }
+  .footer-title > h2{
+    margin-top: -8px;
+  }
+  .social-icon{
+    font-size: 1.8rem;
+  }
+  #footer-container > hr{
+    border: none; 
+    width: 920px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+  }
+  
+  
